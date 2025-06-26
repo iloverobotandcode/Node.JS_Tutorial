@@ -54,4 +54,6 @@ console.log(1 + 3);
   </tr>
 </table>
 
-```
+2. Example: From <index.js> access to <add.js>?
+
+
