@@ -134,5 +134,48 @@ module.exports = add;
 - Write the equation <1 + 3> and wait
 - The result will be shown  
 
+5. Solution: Using **Class**
+- Topic: function ==> require ==> module.exports ==> class
+<table>
+  <tr>
+    <th>index.js</th>
+    <th>add.js</th>
+  </tr>
+  <tr>
+    <td>
+      <pre><code>
+const Add = require("./add");
+Add.setNum1(1);
+Add.setNum2(3);
+console.log(Add.sum_result());
+      </code></pre>
+    </td>
+    <td>
+      <pre><code>
+class Add {
+    constructor (number1, number2) {
+        this.number1 = number1;
+        this.number2 = number2;
+    }
+
+    setNum1(num) {
+        this.number1 = num;
+    }
+
+    setNum2(num) {
+        this.number2 = num;
+    }
+
+    sum_result() {
+        return this.number1 + this.number2;
+    }
+}
+
+module.exports = new Add;
+      </code></pre>
+    </td>
+  </tr>
+</table>
+
 ## References
 - doc tutorial 1: https://www.tutorialspoint.com/nodejs/nodejs_npm.htm
