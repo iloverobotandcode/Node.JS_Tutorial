@@ -31,17 +31,18 @@ node index
 ---
 ## More examples
 1. Example: Build a code with function or without function
-   -- With function
+<table>
+<tr>
+<td>
+   - With function
 ```
-// Example: Build a code **with** a function
 const add = (a, b) => {
     return a + b;
 };
 const sum = add(1, 3);
 console.log(sum);
 ```
-
+   - Without function
 ```
-// Example: Build a code **without** a function
 console.log(1+3);
 ```
