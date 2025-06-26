@@ -32,17 +32,26 @@ node index
 ## More examples
 1. Example: Build a code with function or without function
 <table>
-<tr>
-<td>
-   - With function
-```
+  <tr>
+    <th>With function</th>
+    <th>Without function</th>
+  </tr>
+  <tr>
+    <td>
+      <pre><code>
 const add = (a, b) => {
-    return a + b;
+  return a + b;
 };
 const sum = add(1, 3);
 console.log(sum);
-```
-   - Without function
-```
-console.log(1+3);
+      </code></pre>
+    </td>
+    <td>
+      <pre><code>
+console.log(1 + 3);
+      </code></pre>
+    </td>
+  </tr>
+</table>
+
 ```
