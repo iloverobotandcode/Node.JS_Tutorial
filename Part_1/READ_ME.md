@@ -66,16 +66,16 @@ console.log(1 + 3);
   <tr>
     <td>
       <pre><code>
+require("./add");
+      </code></pre>
+    </td>
+    <td>
+      <pre><code>
 const add = (a, b) => {
   return a + b;
 };
 const sum = add(1, 3);
 console.log(sum);
-      </code></pre>
-    </td>
-    <td>
-      <pre><code>
-require("./add");
       </code></pre>
     </td>
   </tr>
@@ -90,17 +90,18 @@ require("./add");
   <tr>
     <td>
       <pre><code>
-const add = (a, b) => {
-  return a + b;
-};
-module.exports = add;
+const add = require("./add");
+const sum = add(1, 3);
+console.log(sum);  
       </code></pre>
     </td>
     <td>
       <pre><code>
-const add = require("./add");
-const sum = add(1, 3);
-console.log(sum);      
+const add = (a, b) => {
+  return a + b;
+};
+module.exports = add;
+    
       </code></pre>
     </td>
   </tr>
