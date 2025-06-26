@@ -54,7 +54,7 @@ console.log('Server running at http://127.0.0.1:3000/');
 ---
 ## More examples
 ### How can we print out the result 4 when import 2 parameters 1 + 3?
-1. Solution 1: Using **function**
+1. Solution: Using **function**
 - Topic: With or without function?
 <table>
   <tr>
@@ -79,7 +79,7 @@ console.log(1 + 3);
   </tr>
 </table>
 
-2. Solution 2: Using **require**
+2. Solution: Using **require**
 - Topic: From <index.js> access to <add.js>?
 <table>
   <tr>
@@ -104,7 +104,7 @@ console.log(sum);
   </tr>
 </table>
 
-3. Solution 3: Using **module.exports**
+3. Solution: Using **module.exports**
 <table>
   <tr>
     <th>index.js</th>
@@ -127,3 +127,8 @@ module.exports = add;
     </td>
   </tr>
 </table>
+
+3. Solution: Using **REPL**
+- Open the terminal
+- Write the equation <1 + 3> and wait
+- The result will be shown  
