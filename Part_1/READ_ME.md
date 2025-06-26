@@ -31,7 +31,8 @@ node index
 ---
 ## More examples
 ### How can we print out the result 4 when import 2 parameters 1 + 3?
-1. Solution 1: Build a code with function or without function
+1. Solution 1: Function method
+- Topic: With or without function?
 <table>
   <tr>
     <th>With function</th>
@@ -55,7 +56,8 @@ console.log(1 + 3);
   </tr>
 </table>
 
-2. Solution 2: From <index.js> access to <add.js>?
+2. Solution 2: Require method
+- Topic: From <index.js> access to <add.js>?
 <table>
   <tr>
     <th>index.js</th>
