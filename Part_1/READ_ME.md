@@ -55,5 +55,26 @@ console.log(1 + 3);
 </table>
 
 2. Example: From <index.js> access to <add.js>?
-
+<table>
+  <tr>
+    <th>index.js</th>
+    <th>add.js</th>
+  </tr>
+  <tr>
+    <td>
+      <pre><code>
+const add = (a, b) => {
+  return a + b;
+};
+const sum = add(1, 3);
+console.log(sum);
+      </code></pre>
+    </td>
+    <td>
+      <pre><code>
+require("./add");
+      </code></pre>
+    </td>
+  </tr>
+</table>
 
