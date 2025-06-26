@@ -12,6 +12,6 @@
 1. Go to the website [JS]([url](https://nodejs.org/en))
 2. Download the NODE.JS version (should be the latest one)
 3. Check the NODE.JS installation on the cmd
-   a. Open the CMD or Powershell
-   b. Write this command line to check the version <node -v>
+   1. Open the CMD or Powershell
+   2. Write this command line to check the version <node -v>
 
