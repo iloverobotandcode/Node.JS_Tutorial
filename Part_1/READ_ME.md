@@ -21,9 +21,11 @@
 // index.js
 console.log("Hello, World!");
 ```
-2. Run on the terminal of VSCode
+2. Run this command line on the terminal of VSCode
+- Syntax: node file_name
+- Example below: file_name is index.js
 ```
-node file_name
+node index
 ```
 
 
