@@ -1,6 +1,6 @@
 # Table of contents
-1. Set up the environment --> **VSCode** [https://code.visualstudio.com/] [x]
-2. Set up the language program --> NODE.JS [https://nodejs.org/en]
+1. Set up the environment --> **VSCode** [https://code.visualstudio.com/]
+2. Set up the language program --> **NODE.JS** [https://nodejs.org/en]
 3. Run the first code <*Hello World!*>
 4. Problems and solutions
 ---
@@ -20,6 +20,10 @@
 ```js
 // index.js
 console.log("Hello, World!");
+```
+2. Run on the terminal of VSCode
+```
+node file_name
 ```
 
 
