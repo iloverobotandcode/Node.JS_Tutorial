@@ -4,6 +4,7 @@
 3. Run the first code <*Hello World!*>
 4. More examples
 5. Problems and solutions
+6. ReferencesReferences
 ---
 ## Set up the environment
 1. Go to website [VSCode]([url](https://code.visualstudio.com/))
@@ -132,3 +133,6 @@ module.exports = add;
 - Open the terminal
 - Write the equation <1 + 3> and wait
 - The result will be shown  
+
+## References
+- doc tutorial 1: https://www.tutorialspoint.com/nodejs/nodejs_npm.htm
