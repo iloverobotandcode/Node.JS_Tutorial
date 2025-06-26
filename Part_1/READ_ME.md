@@ -31,7 +31,7 @@ node index
 ---
 ## More examples
 ### How can we print out the result 4 when import 2 parameters 1 + 3?
-1. Solution 1: Using <function>
+1. Solution 1: Using **function**
 - Topic: With or without function?
 <table>
   <tr>
@@ -56,7 +56,7 @@ console.log(1 + 3);
   </tr>
 </table>
 
-2. Solution 2: Using <require>
+2. Solution 2: Using **require**
 - Topic: From <index.js> access to <add.js>?
 <table>
   <tr>
@@ -81,7 +81,7 @@ console.log(sum);
   </tr>
 </table>
 
-3. Solution 3: Using <module.exports>
+3. Solution 3: Using **module.exports**
 <table>
   <tr>
     <th>index.js</th>
