@@ -19,9 +19,8 @@
 1. Copy and paste this code to your programming environment
 ```js
 // index.js
-const hello = () => {
-  console.log("Hello, World!");
-}
+console.log("Hello, World!");
+```
 
 
 
