@@ -40,7 +40,6 @@ const add = (a, b) => {
 const sum = add(1, 3);
 console.log(sum);
 ```
-```
 
 ```
 // Example: Build a code **without** a function
