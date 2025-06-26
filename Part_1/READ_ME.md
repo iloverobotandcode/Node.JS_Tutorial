@@ -28,8 +28,7 @@ console.log("Hello, World!");
 ```
 node index
 ```
----
-3. Show "Hello World!" on the local host browser
+3. Show "Hello World!" on the **local host browser** - instead of showing on the terminal as above
 ```
 http = require('node:http');
 listener = function (request, response) {
@@ -49,7 +48,10 @@ server.listen(3000);
 
 console.log('Server running at http://127.0.0.1:3000/');
 ```
+- How can we know it run? -
+  - Open the browser and paste this link <http://localhost:3000>
 
+---
 ## More examples
 ### How can we print out the result 4 when import 2 parameters 1 + 3?
 1. Solution 1: Using **function**
