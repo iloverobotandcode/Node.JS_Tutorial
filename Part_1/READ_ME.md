@@ -1,7 +1,7 @@
 # Table of contents
 1. Set up the environment --> **VSCode** [https://code.visualstudio.com/] [x]
 2. Set up the language program --> NODE.JS [https://nodejs.org/en]
-3. Run the first code <Hello World!>
+3. Run the first code <*Hello World!*>
 4. Problems and solutions
 ---
 ## Set up the environment
@@ -14,6 +14,14 @@
 3. Check the NODE.JS installation on the cmd
    1. Open the CMD or Powershell
    2. Write this command line to check the version <**node -v**>
+
+## Run the first code
+1. Copy and paste this code to your programming environment
+```js
+// index.js
+const hello = () => {
+  console.log("Hello, World!");
+}
 
 
 
