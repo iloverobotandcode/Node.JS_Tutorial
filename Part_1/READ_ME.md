@@ -100,7 +100,6 @@ const add = (a, b) => {
   return a + b;
 };
 module.exports = add;
-    
       </code></pre>
     </td>
   </tr>
