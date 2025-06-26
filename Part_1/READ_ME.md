@@ -106,6 +106,7 @@ console.log(sum);
 </table>
 
 3. Solution: Using **module.exports**
+- Topic: Function -> Require -> Module.exports
 <table>
   <tr>
     <th>index.js</th>
@@ -135,7 +136,7 @@ module.exports = add;
 - The result will be shown  
 
 5. Solution: Using **Class**
-- Topic: function ==> require ==> module.exports ==> class
+- Topic: Function -> Require -> Module.exports -> Class
 <table>
   <tr>
     <th>index.js</th>
@@ -157,20 +158,16 @@ class Add {
         this.number1 = number1;
         this.number2 = number2;
     }
-
     setNum1(num) {
         this.number1 = num;
     }
-
     setNum2(num) {
         this.number2 = num;
     }
-
     sum_result() {
         return this.number1 + this.number2;
     }
 }
-
 module.exports = new Add;
       </code></pre>
     </td>
