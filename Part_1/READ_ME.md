@@ -91,8 +91,7 @@ console.log(sum);
     <td>
       <pre><code>
 const add = require("./add");
-const sum = add(1, 3);
-console.log(sum);  
+console.log(add(1, 3));  
       </code></pre>
     </td>
     <td>
