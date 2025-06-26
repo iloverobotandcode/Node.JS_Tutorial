@@ -128,7 +128,7 @@ module.exports = add;
   </tr>
 </table>
 
-3. Solution: Using **REPL**
+4. Solution: Using **REPL**
 - Open the terminal
 - Write the equation <1 + 3> and wait
 - The result will be shown  
