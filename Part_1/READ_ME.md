@@ -30,7 +30,8 @@ node index
 ```
 ---
 ## More examples
-1. Example: Build a code with function or without function
+### How can we print out the result 4 when import 2 parameters 1 + 3?
+1. Solution 1: Build a code with function or without function
 <table>
   <tr>
     <th>With function</th>
@@ -54,7 +55,7 @@ console.log(1 + 3);
   </tr>
 </table>
 
-2. Example: From <index.js> access to <add.js>?
+2. Solution 2: From <index.js> access to <add.js>?
 <table>
   <tr>
     <th>index.js</th>
@@ -78,3 +79,27 @@ require("./add");
   </tr>
 </table>
 
+3. Solution 3: Using <module.exports>
+<table>
+  <tr>
+    <th>index.js</th>
+    <th>add.js</th>
+  </tr>
+  <tr>
+    <td>
+      <pre><code>
+const add = (a, b) => {
+  return a + b;
+};
+module.exports = add;
+      </code></pre>
+    </td>
+    <td>
+      <pre><code>
+const add = require("./add");
+const sum = add(1, 3);
+console.log(sum);      
+      </code></pre>
+    </td>
+  </tr>
+</table>
